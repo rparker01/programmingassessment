@@ -40,6 +40,48 @@
                 right: 700px;
                 top: 400px;
             }
+            .eight{
+                position: fixed;
+                right: 1300px;
+                top: 700px;
+                font-size: 10px;
+            }
+            .nine{
+                position: fixed;
+                right: 1400px;
+                top: 10px;
+                font-size: 30px;
+            }
+            .ten{
+               position: fixed;
+                right: 600px;
+                top: 20px;
+                font-size: 50px;
+            }
+            .eleven{
+                position: fixed;
+                right: 100;
+                top: 150px;
+            }
+            .twelve{
+              position: fixed;
+                right: 100;
+                top: 250px;
+            }
+            .blinking{
+                animation:blinkingText 1.2s infinite;
+                position: fixed;
+                right: 1300px;
+                top: 700px;
+                font-size: 10px;
+            }
+            @keyframes blinkingText{
+                0%{     color: #000;    }
+                49%{    color: #000; }
+                60%{    color: transparent; }
+                99%{    color:transparent;  }
+                100%{   color: #000;    }
+            }
         </style>
     </head>
     <body>
@@ -49,6 +91,7 @@
         <span style="color:#4285F4">g</span>
         <span style="color:#0F9D58">l</span>
         <span style="color:#DB4437">e</span></h1>
+        <h1 class=six style="color:#4285F4">but so much worse</h1>
         <form class = four action="https://google.com/search" autocomplete="off">
             <input class = five type="text" name="q" size="100">
             <input class = four type="submit" value="google search">
@@ -58,5 +101,6 @@
             <a class=one href="/programmingassessment/gis.html">images</a>
             <a class=two href="/programmingassessment/gas.html">advanced</a>
         </nav>
+       <h3 class = blinking>Disclaimer: viruses are included with every search</h3>
     </body>
 </html>
