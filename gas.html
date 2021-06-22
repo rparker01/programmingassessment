@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <style>
+        input[class=""], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box
+        }
+        .one {
+                position: fixed;
+                right: 50px;
+                top: 0px;
+            }
+            .two {
+                position: fixed;
+                right: 100px;
+                top: 0px;
+            }
+            .three {
+                position: fixed;
+                right: 750px;
+                top: 100px;
+            }
+            .four {
+                position: fixed;
+                right: 800px;
+                top: 400px;
+            }
+            .five{
+                border-radius: 5px;
+                position: fixed;
+                right: 500px;
+                top: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>google advanced</h1>
+        <h2>find pages with...</h2>
+        <form action="https://google.com/search" autocomplete="off">
+            all these words: <input class="" type="text" name="as_q">
+            this exact word or phrase: <input class="" type="text" name="as_epq">
+            any of these words: <input class="" type="text" name="as_oq">
+            none of these words: <input class="" type="text" name="as_eq">
+            <input color="blue" type="submit" value="advanced search">
+        </form>
+        <nav>
+            <a class= one href="/index.html/">index</a>
+        </nav>
+    </body>
+</html>
